@@ -19,19 +19,13 @@ body{
 
 #cuerpo{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background:#3d2f36;
     background-size: cover;
     background-position: center;
 }
 
-#separador{
-    width: 100%;
-    height: 5%;
-    background-image: url(images/Separador.png);
-    background-size: cover;
-    background-position: center;
-}
+
 
 #perfil{
     display: flex;
@@ -127,3 +121,9 @@ nav ul li a:hover::after{
 h2{
     font-size: 24px;
 }
+
+.body-text #education{
+    padding-left: 50%;
+    
+}
+
